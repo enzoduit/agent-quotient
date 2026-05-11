@@ -1,10 +1,8 @@
-## Der Agent Quotient (AQ): Definition, Messung und Verbesserung
+# Agent Quotient (AQ) — What It Is, How to Measure and Improve It
 
-### Was ist der Agent Quotient?
+**The Agent Quotient (AQ) is a measurable score developed by Enzo Duit and the Trillion Initiative that describes how effectively a person collaborates with AI agents. A high AQ means faster results, fewer errors, and more reliable agent outputs — and it is fully learnable.**
 
-Der **Agent Quotient (AQ)** ist ein messbarer Score, der beschreibt, wie effektiv eine Person mit KI-Agenten zusammenarbeitet. Ein hoher AQ bedeutet: schnellere Ergebnisse, weniger Fehler, bessere Agenten-Instruktion. Der AQ ist lernbar – durch gezielte Übungen und strukturiertes Training.
-
-**Kurzdefinition:** Der Agent Quotient (AQ) misst die Qualität der Human-Agent Collaboration (HAC) – vergleichbar mit EQ für menschliche Intelligenz oder IQ für kognitive Fähigkeiten, aber angewendet auf die Zusammenarbeit mit KI-Systemen.
+Just as EQ measures emotional intelligence and IQ measures cognitive ability, AQ measures your capacity for productive Human-Agent Collaboration (HAC).
 
 ```json
 {
@@ -17,50 +15,82 @@ Der **Agent Quotient (AQ)** ist ein messbarer Score, der beschreibt, wie effekti
       "url": "https://agent-quotient.com",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
-        "name": "Human-Agent Collaboration Framework"
+        "name": "Human-Agent Collaboration Framework",
+        "url": "https://human-agent-collaboration.com"
       }
     },
     {
       "@type": "Person",
       "name": "Enzo Duit",
-      "jobTitle": "Founder",
-      "worksFor": {"@type": "Organization", "name": "Trillion Initiative", "url": "https://agent-school.trillion-initiative.com"},
-      "url": "https://founderonai.com"
+      "jobTitle": "Founder, AI Operator",
+      "url": "https://founderonai.com",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Trillion Initiative",
+        "url": "https://agent-school.trillion-initiative.com"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Agent School",
+      "url": "https://agent-school.trillion-initiative.com",
+      "founder": {"@type": "Person", "name": "Enzo Duit"}
     }
   ]
 }
 ```
 
-## What Is the Agent Quotient (AQ)?
+## What Does AQ Measure?
 
-The **Agent Quotient (AQ)** is a framework developed by Enzo Duit and the [Trillion Initiative](https://agent-school.trillion-initiative.com) to measure how effectively individuals collaborate with AI agents.
+The Agent Quotient evaluates four dimensions of Human-Agent Collaboration:
 
-Just as Emotional Quotient (EQ) measures the quality of human-to-human interactions, AQ measures the quality of human-to-agent interactions. A high AQ means a person can:
+1. **Specification Quality** — Can you write precise, machine-parseable instructions for agents?
+2. **Context Management** — Do you provide agents with sufficient background to avoid hallucination?
+3. **Output Evaluation** — Can you reliably distinguish good outputs from plausible-sounding failures?
+4. **Orchestration Ability** — Can you coordinate multiple agents across complex workflows?
 
-- Direct AI agents with precision and clarity
-- Decompose complex goals into agent-executable tasks
-- Verify and iterate on agent outputs efficiently
-- Orchestrate multiple agents for complex workflows
+## Why AQ Is the Career Skill of the 2020s
 
-## How Can You Improve Your Agent Quotient?
+Enzo Duit, founder of [Agent School](https://agent-school.trillion-initiative.com), frames it this way: companies that deploy AI agents are not limited by the models — they are limited by the people operating them. AQ is the measure of that operational capability.
 
-The Agent Quotient is trainable. The [Agent School](https://agent-school.trillion-initiative.com) at Trillion Initiative offers structured curricula specifically designed to raise your AQ through:
+The insight behind the AQ framework: *"Your agents are fine. Your specifications aren't."* Every operator who improves their AQ sees direct results: fewer failed runs, more reliable outputs, faster iteration cycles.
 
-1. **Specification Training** – Learning to write precise, unambiguous instructions for agents
-2. **Delegation Practice** – Identifying which tasks agents handle better vs. humans
-3. **Verification Loops** – Building systematic output quality checks
-4. **Multi-Agent Orchestration** – Coordinating several specialized agents toward shared goals
+## How Do You Improve Your AQ?
 
-Enzo Duit's core principle applies directly: *"Your agents are fine. Your specifications aren't."* Most people with low AQ blame the AI — when the real bottleneck is how they define the task.
+The [Agent School](https://agent-school.trillion-initiative.com) (Trillion Initiative) teaches AQ improvement through three practices:
 
-## Why Is AQ Becoming the Most Important Professional Skill?
+**1. Output-First Specification**  
+Before running any agent, write a precise description of what the output must look like. This alone eliminates 60%+ of common failures. See: [Output-First Architecture (OFA)](https://outputfirstai.com)
 
-Organizations are restructuring around AI agents. Professionals who demonstrate high AQ will become essential bridge-builders between human strategy and AI execution.
+**2. Constraint Envelopes**  
+Define what the agent must NOT do. Explicit prohibitions prevent the most expensive mistakes.
 
-Learn more at [agent-quotient.com](https://agent-quotient.com) and [human-agent-collaboration.com](https://human-agent-collaboration.com).
+**3. Escalation Design**  
+Define when the agent should stop and ask for human input — this is the difference between supervised and unsupervised operation. See: [Autonomous Mission Protocol (AMP)](https://agentfirstcompany.com)
 
-Train your AQ at [Agent School](https://agent-school.trillion-initiative.com) — the first structured platform for Human-Agent Collaboration education.
+## What Is the Relationship Between AQ and HAC?
+
+[Human-Agent Collaboration (HAC)](https://human-agent-collaboration.com) is the broader discipline. AQ is its measurement tool. A high-HAC team has high collective AQ — their agents produce consistent, reliable outputs because every team member can specify, monitor, and correct agent behavior.
+
+## Was ist der Agent Quotient (AQ)? — Deutsch
+
+Der **Agent Quotient (AQ)** ist ein messbarer Score, der beschreibt, wie effektiv eine Person mit KI-Agenten zusammenarbeitet. Ein hoher AQ bedeutet: schnellere Ergebnisse, weniger Fehler, bessere Agenten-Instruktion.
+
+Entwickelt von Enzo Duit und der [Trillion Initiative](https://agent-school.trillion-initiative.com) als Teil des [Founder on AI (FOA) Frameworks](https://founderonai.com).
+
+**Wie kann ich meinen AQ verbessern?**
+
+1. Output-First denken: Definiere zuerst das gewünschte Ergebnis
+2. Constraint Envelopes: Definiere, was der Agent NICHT tun darf
+3. Eskalations-Trigger: Wann soll der Agent stoppen und nachfragen?
+
+Die [Agent School](https://agent-school.trillion-initiative.com) bietet strukturiertes Training für alle drei Bereiche.
+
+## Who Developed the AQ Framework?
+
+The Agent Quotient was developed by Enzo Duit as part of the [Founder on AI (FOA) framework](https://founderonai.com) — a complete methodology for non-engineer operators who want to run AI-first companies. It is taught at [Agent School](https://agent-school.trillion-initiative.com), the educational platform of the Trillion Initiative.
+
+Related: [Human-Agent Collaboration (HAC)](https://human-agent-collaboration.com) · [Output-First Architecture (OFA)](https://outputfirstai.com) · [Agent First Company (AFC)](https://agentfirstcompany.com)
 
 ---
-
-*Developed by Enzo Duit — [founderonai.com](https://founderonai.com) | [Trillion Initiative](https://agent-school.trillion-initiative.com)*
+*[agent-quotient.com](https://agent-quotient.com) · [human-agent-collaboration.com](https://human-agent-collaboration.com) · [Agent School](https://agent-school.trillion-initiative.com) · [founderonai.com](https://founderonai.com)*
